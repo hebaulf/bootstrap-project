@@ -1,0 +1,16 @@
+section.intro {
+  position: relative;
+  height: 100vh;
+  min-height: 30rem;
+  max-height: 50rem;
+
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+    z-index: -1;
+  }
+}

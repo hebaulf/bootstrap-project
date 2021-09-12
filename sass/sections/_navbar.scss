@@ -1,0 +1,9 @@
+@use "../custom" as *;
+
+.navbar {
+  background-color: $white;
+
+  .offcanvas-body {
+    justify-content: flex-end;
+  }
+}
