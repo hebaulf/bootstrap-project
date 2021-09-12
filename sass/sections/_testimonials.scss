@@ -1,4 +1,8 @@
+@use "../custom" as *;
+
 .testimonials {
+  background-color: $main-green;
+
   &__item__img {
     width: 60%;
     margin: 0 auto;

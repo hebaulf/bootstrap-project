@@ -1,0 +1,10 @@
+@use "../custom" as *;
+
+.service {
+  background-color: $gray-100;
+  .card {
+    background-color: $gray-200;
+    border: none;
+    border-radius: 0;
+  }
+}

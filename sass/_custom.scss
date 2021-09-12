@@ -1,7 +1,7 @@
 $main-blue: #457b9d;
 $main-red: #ff5e5b;
 $main-green: #aac0aa;
-$main-green_light: #dceed1;
+$main-green_light: #eff5eb;
 
 // WHITE AND GRAY COLORS
 $white: #fff;
@@ -20,10 +20,12 @@ $black: #000;
 $primary: $main-green;
 $secondary: $main-blue;
 
+$bg-color: $main-green;
+
 // NAVBAR OVERRIDES
 $navbar-light-brand-color: $gray-900;
-$navbar-light-hover-color: $main-red;
-$navbar-light-active-color: $main-red;
+$navbar-light-hover-color: darken($main-green, 20%);
+$navbar-light-active-color: darken($main-green, 20%);
 $navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-brand-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 $navbar-light-toggler-border-color: transparent;
 
