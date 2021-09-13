@@ -1,0 +1,23 @@
+@use "../custom" as *;
+
+.footer {
+  margin-top: auto;
+  color: $white;
+
+  p {
+    margin-bottom: 0.6rem;
+  }
+
+  a {
+    color: $white;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $main-green;
+    }
+
+    &.underline {
+      text-decoration: underline;
+    }
+  }
+}
