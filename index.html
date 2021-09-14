@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" class="text-gray-900 leading-tight">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Bootstrap Project - Module 3</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- FAVICON LINKS AND META -->
-    <link rel="apple-touch-icon" sizes="180x180" href="dist/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="dist/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="dist/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="dist/assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="dist/assets/favicons/safari-pinned-tab.svg" color="#abc9ab">
-    <link rel="shortcut icon" href="dist/assets/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#abc9ab">
-    <meta name="msapplication-config" content="dist/assets/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+  <title>Atlas - Interior Design</title>
 
-    <!-- LINK TO CSS -->
-    <link rel="stylesheet" href="dist/css/style.css">
+  <!-- SEO META TAGS --> 
+  <meta name="description" content="Do nostrud reprehenderit ipsum in adipisicing id cillum nulla pariatur ullamco ipsum. Occaecat sit enim deserunt ut cillum quis in deserunt et quis esse. Eu velit proident amet aliqua commodo.">
+  <meta name="keywords" content="design, interior design, architecture">
+  <meta name="author" content="Atlas">
+
+  <!-- OPEN GRAPH META TAGS --> 
+  <meta property="og:title" content="We love modern designs" />
+  <meta property="og:description" content="Do nostrud reprehenderit ipsum in adipisicing id cillum nulla pariatur ullamco ipsum. Occaecat sit enim deserunt ut cillum quis in deserunt et quis esse. Eu velit proident amet aliqua commodo." />
+  <meta property="og:url" content="https://hebaulf.github.io/bootstrap-project/" />
+  <meta property="og:site_name" content="Atlas - Interior Design" />
+  <meta property="og:image" content="https://hebaulf.github.io/bootstrap-project/dist/assets/img/interior/pexels-maksim-goncharenok-4352247.jpg" />
+
+  <!-- FAVICON LINKS AND META -->
+  <!-- Here I am using links to various favicons which I get from a favicon generator (https://realfavicongenerator.net/)
+        These favicons then appear in the browser tabs and on mobile or other apps or devices -->
+  <link rel="apple-touch-icon" sizes="180x180" href="dist/assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="dist/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="dist/assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="dist/assets/favicons/site.webmanifest">
+  <link rel="mask-icon" href="dist/assets/favicons/safari-pinned-tab.svg" color="#abc9ab">
+  <link rel="shortcut icon" href="dist/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#abc9ab">
+  <meta name="msapplication-config" content="dist/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- LINK TO CSS -->
+  <link rel="stylesheet" href="dist/css/style.css">
 </head>
 
 <body class="body">
   <!-- HEADER -->
+  <!--  Here I used the sticky-top and shadow classes from Bootstrap to make the header move down with the page 
+        and to have a shadow to define the bottom of the header -->
   <header class="header sticky-top shadow">
-    <!-- Navbar -->
+    <!-- NAVBAR -->
+    <!--  Here I used the Navbar component from Bootstrap with a off canvas mobile menu 
+          when screen is smaller than 768px -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a class="logo navbar-brand" href="/">
@@ -65,6 +83,10 @@
   <main class="">
 
     <!-- INTRO SECTION -->
+    <!--  Here I am using the Bootstrap container class to keep content within a certain width
+          I am using the Bootstrap grid layout with a medium  (col-md-8...) screen size breakpoint
+          I am using the padding (pb-5 / pt-5) and margin (mb-5) classes
+          I am also using font Bootstrap text classes, such as fontweight (fw-bold / fw-light) and display sizes (display-2...) -->
     <section id="intro" class="intro mb-5 d-flex align-items-center">
       <div class="container pt-5 pb-5 mb-5">
         <div class="row align-items-center">
@@ -83,6 +105,11 @@
       </div>
     </section>
 
+    <!-- ABOUT SECTION -->
+    <!--  Here I am using the Bootstrap container class to keep content within a certain width
+          I am using the Bootstrap grid layout with a medium (col-md-6) screen size breakpoint
+          I am using the padding (pb-5 / pt-5) and margin (mb-5) classes
+          I am also using font Bootstrap text classes, such as fontweight (fw-light) and display sizes (display-6) -->
     <section id="about" class="about">
       <div class="container pt-5 pb-5 mb-5">
         <div class="row align-items-center">
@@ -100,6 +127,10 @@
     </section>
 
     <!-- TICKER SECTION -->
+    <!--  Here I am using the Bootstrap container class to keep content within a certain width
+          I am using the Bootstrap grid layout with a large (col-lg-3) and small (col-sm-6) screen size breakpoint
+          I am using the padding (pb-5 / pt-5...) and margin (mb-5) classes
+          I am also using font Bootstrap text classes, such as fontweight (fw-bold) and display sizes (display-4) -->
     <section id="ticker" class="ticker">
       <div class="container pt-5 pb-5 mb-5">
         <div class="row text-center">
@@ -124,6 +155,10 @@
     </section>
 
     <!-- TEXT SECTION -->
+    <!--  Here I am using the Bootstrap container class to keep content within a certain width
+          I am using the Bootstrap grid layout with a medium (col-md-4...) screen size breakpoint
+          I am using the padding (pb-5 / pt-5) and margin (mb-5) classes
+          I am also using font Bootstrap text classes, such as fontweight (fw-bold) and display sizes (display-6) -->
     <section class="text-section">
       <div class="container pt-5 pb-5 mb-5">
         <div class="row">
@@ -138,6 +173,11 @@
     </section>
 
     <!-- SERVICE SECTION -->
+    <!--  Here I make use of the Bootstrap card component 
+          I am using the Bootstrap container class to keep content within a certain width
+          I am using the Bootstrap grid layout with a medium (col-md-4...) and small (col-sm-6) screen size breakpoint
+          I am using the padding (pb-5 / pt-5) and margin (mb-5) classes
+          I am also using font Bootstrap text classes, such as font weight (fw-light) and font size (font-size-small) -->
     <section id="service" class="service">
       <div class="container pt-5 pb-5 mb-5">
         <div class="row">
@@ -190,6 +230,11 @@
     </section>
 
     <!-- PROJECTS SECTION -->
+    <!--  Here I make use of the Bootstrap card component 
+          I am using the Bootstrap container class to keep content within a certain width
+          I am using the Bootstrap grid layout with a medium (col-md-4...) and small (col-sm-6) screen size breakpoint
+          I am using the padding (pb-5 / pt-5) and margin (mb-5) classes
+          I am also using font Bootstrap text classes, such as font weight (fw-light) -->
     <section id="projects" class="projects">
       <div class="container pt-5 pb-5 mb-5">
         <div class="row pb-5">
@@ -246,6 +291,10 @@
     </section>
 
     <!-- TESTIMONIAL SECTION -->
+    <!--  Here I am using the Bootstrap container class to keep content within a certain width
+          I am using the Bootstrap grid layout with a medium (col-md-4) 
+          I am using the padding (pb-5 / pt-5) and margin (mb-5) classes
+          I am also using font Bootstrap text classes, such as font weight (fw-light) -->
     <section id="testimonials" class="testimonials">
       <div class="container pt-5 pb-5 mb-5">
         <div class="row">
@@ -281,6 +330,10 @@
     </section>
 
     <!-- TEAM SECTION -->
+    <!--  Here I am using the Bootstrap container class to keep content within a certain width
+          I am using the Bootstrap grid layout with a medium (col-md-3) 
+          I am using the padding (pb-5 / pt-5) and margin (mb-5) classes
+          I am also using font Bootstrap text classes, such as font weight (fw-light) -->
     <section id="team" class="team">
       <div class="container pt-5 pb-5 mb-5">
         <div class="row pb-5">
@@ -331,6 +384,11 @@
   </main>
 
   <!-- FOOTER -->
+  <!--  Here I am using the Bootstrap container class to keep content within a certain width
+        I use the background color class (bg-secondary)
+        I am using the Bootstrap grid layout with a medium (col-md-4) 
+        I am using the padding (pb-5 / pt-5) and margin (mb-5) classes
+        I am also using font Bootstrap text classes, such as font weight (fw-light) -->
   <footer class="footer bg-secondary">
     <div class="container">
       <div class="row pt-5 pb-5 ">
