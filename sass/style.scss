@@ -3,9 +3,6 @@
 @use "base";
 
 // IMPORT COMPONENTS
-@use "components/animations";
-@use "components/mixins";
-@use "components/buttons";
 @use "components/typography";
 
 // IMPORT SECTIONS
@@ -17,4 +14,3 @@
 @use "sections/testimonials";
 @use "sections/team";
 @use "sections/footer";
-@use "sections/faq";
