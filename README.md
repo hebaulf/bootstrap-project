@@ -61,8 +61,8 @@ In the assets folder I have all the image files, icons(logo) and favicons used o
 ## Clone project
 
 To clone the project to work on it you have to do the following:
-** Clone Project **  
+#### Clone Project  
 run in terminal: `git clone https://github.com/hebaulf/bootstrap-project.git`  
 <br/>
-** Install dependencies **
+#### Install dependencies
 run in terminal: `npm install`
